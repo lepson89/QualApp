@@ -10,7 +10,7 @@ import spock.lang.Unroll
 
 @SpringBootTest(classes = AppApplication.class)
 @Unroll
-class RequestProducerTest extends Specification {
+class RequestProducerSpec extends Specification {
 
     @Autowired
     JmsTemplate jmsTemplate

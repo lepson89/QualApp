@@ -17,7 +17,7 @@ import spock.mock.DetachedMockFactory
 
 @SpringBootTest(classes = AppApplication.class)
 @Unroll
-class SaveToDBServiceTest extends Specification {
+class SaveToDBServiceSpec extends Specification {
 
     @Autowired
     @Qualifier("saveToDBService")

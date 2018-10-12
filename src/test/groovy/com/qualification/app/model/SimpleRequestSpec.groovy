@@ -8,7 +8,7 @@ import spock.lang.Unroll
 
 @SpringBootTest(classes = AppApplication.class)
 @Unroll
-class SimpleRequestTest extends Specification {
+class SimpleRequestSpec extends Specification {
 
     def "should return SimpleRequest with property: #data and type #type"() {
 

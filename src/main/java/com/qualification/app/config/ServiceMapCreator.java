@@ -1,6 +1,7 @@
-package com.qualification.app.service;
+package com.qualification.app.config;
 
 import com.qualification.app.enums.RequestType;
+import com.qualification.app.service.IRequestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -11,7 +12,6 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 @Configuration
-@ComponentScan("com.qualification.app.service")
 public class ServiceMapCreator {
 
     @Autowired

@@ -11,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest
 import spock.lang.Specification
 
 @SpringBootTest(classes = AppApplication.class)
-class SaveToFileServiceTest extends Specification {
+class SaveToFileServiceSpec extends Specification {
 
     @Autowired
     @Qualifier("saveToFileService")
